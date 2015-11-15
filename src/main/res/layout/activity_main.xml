@@ -1,0 +1,38 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <fragment
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment"
+        android:name="com.mkishan.nestedScrollCompat.view.ViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/tab_fragment"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#33b5e5"
+            app:layout_scrollFlags="scroll|enterAlways" />
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
