@@ -8,7 +8,7 @@ In the example project above, the fragment has a listview which collapses the to
 
 **Directions for use**
 
-1) Replace all your **listview** tags with **com.example.mkishan.listtest.MyListView** tag and add the **app:layout_behavior="@string/appbar_scrolling_view_behavior"** to the parent layout or accordingly.
+1) Replace all your **listview** tags with **com.mkishan.nestedScrollCompat.view.CompatListView** tag and add the **app:layout_behavior="@string/appbar_scrolling_view_behavior"** to the parent layout or accordingly.
 
 2) All default listview properties are applicable to this custom list view in XML as well as Java.
 
