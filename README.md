@@ -13,3 +13,4 @@ In the example project above, the fragment has a listview which collapses the to
 2) All default listview properties are applicable to this custom list view in XML as well as Java.
 
 ![Settings](https://cloud.githubusercontent.com/assets/1867155/11167811/c66a8dd6-8b98-11e5-8f8d-589290d5946a.gif)
+![Settings](https://cloud.githubusercontent.com/assets/1867155/11167852/9d60ad1a-8b9a-11e5-8b15-50659ea06635.png)
