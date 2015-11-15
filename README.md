@@ -1,8 +1,8 @@
 # nestedScrollCompat-listview
 This is Android's good old List View with Material Design properties, i.e it has nested scroll enabled, so that the Views/toolbars collapse on scrolling.
 
-**Very Important**
-As per Android's guidelines, the scrolling content which collapses the toolBar or View, i.e the view with the tag **app:layout_behavior="@string/appbar_scrolling_view_behavior"** should always be declared **above** & outside the **AppBar Layout**
+**Very Important & Quick Setup Guidelines**
+As per Android's guidelines, the scrolling content which collapses the toolBar or View, i.e the view with the tag **app:layout_behavior="@string/appbar_scrolling_view_behavior"** should always be declared **above** & outside the **AppBar Layout** To use this feature, just copy the **CompatlistView** class in your project and use it in your Layout xmls or in Java classes accordingly
 
 In the example project above, the fragment has a listview which collapses the toolbar, hence the fragment is declared above appbarlayout. Fragment is declared with the property, **app:layout_behavior="@string/appbar_scrolling_view_behavior"**.
 
